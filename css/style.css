@@ -3,3 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  
+}
+
+header {
+  height: 100px;
+  background-color: #E579E6;
+}
+
+.jumbotron {
+  height: 300px;
+  margin: 20px 0;
+  background-color: #E1D67A;
+}
+
+.main-content {
+  background-color: #2686FF;
+  height: 500px;
+}
+
+aside, section {
+  float: left;
+}
