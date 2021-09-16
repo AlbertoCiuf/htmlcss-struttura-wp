@@ -29,9 +29,42 @@ header {
 
 .main-content {
   background-color: #2686FF;
-  height: 500px;
+  height: 840px;
 }
 
 aside, section {
   float: left;
+}
+
+.main-content .main-elements {
+  background-color: #AACFE7;
+  margin-top: 2%;
+  
+}
+
+.top-text {
+  height: 70px;
+}
+
+/* Altezza minima volutamente ripetuta nelle tre classi poiché provvisoria */
+.left-bar {
+  min-height: 700px;
+  width: 20%;
+}
+
+.main-section {
+  min-height: 700px;
+  width: 56%;
+  margin: 0 2%;
+}
+
+.right-bar {
+  min-height: 700px;
+  width: 20%;
+}
+
+footer {
+  background-color:#8801FF;
+  height: 70px;
+  margin-top: 1%;
 }
