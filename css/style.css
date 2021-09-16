@@ -42,6 +42,7 @@ aside, section {
 .main-content .main-elements {
   background-color: #AACFE7;
   margin-top: 2%;  
+  margin-bottom: 1%; 
 }
 
 .top-text {
@@ -50,18 +51,18 @@ aside, section {
 
 /* Altezza minima volutamente ripetuta nelle tre classi poiché provvisoria */
 .left-bar {
-  min-height: 85%;
+  min-height: 700px;
   width: 20%;
 }
 
 .main-section {
-  min-height: 85%;
+  min-height: 700px;
   width: 56%;
   margin: 0 2%;
 }
 
 .right-bar {
-  min-height: 85%;
+  min-height: 700px;
   width: 20%;
 }
 
