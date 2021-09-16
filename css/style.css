@@ -1,3 +1,4 @@
+/* GlOBAL */
 * {
   margin: 0;
   padding: 0;
@@ -16,11 +17,13 @@
   
 }
 
+/* HEADER */
 header {
   height: 100px;
   background-color: #E579E6;
 }
 
+/* MAIN */
 .jumbotron {
   height: 300px;
   margin: 20px 0;
@@ -63,6 +66,7 @@ aside, section {
   width: 20%;
 }
 
+/* FOOTER */
 footer {
   background-color:#8801FF;
   height: 70px;
